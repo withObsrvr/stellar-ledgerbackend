@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
+	datastore "github.com/withObsrvr/stellar-datastore"
 
 	"github.com/stellar/go/xdr"
-	"github.com/withObsrvr/cdp-pipeline-workflow/datastore"
 )
 
 // Ensure BufferedStorageBackend implements LedgerBackend

@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/withObsrvr/cdp-pipeline-workflow/datastore"
+	datastore "github.com/withObsrvr/stellar-datastore"
 
 	"github.com/stellar/go/support/collections/heap"
 	"github.com/stellar/go/support/compressxdr"
